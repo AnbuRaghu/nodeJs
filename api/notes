@@ -1,0 +1,7 @@
+below mentioned resources of my application should be accessible with the help of token : 
+no direct access
+comment.
+post
+profile
+db.books.find({$or:[{"no of Reviews":{$gt:3}},{"languages":{$eq:"English"}},{downloadable:{$eq:"no"}}]})
+db.books.insert({"name":"XYZ})
